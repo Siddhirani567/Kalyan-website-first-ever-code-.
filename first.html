@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalyan Jewellers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.1);
+      
+    }
+
+    .logo {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .logo img {
+      max-width: 100%;
+      max-height: 110px; /* Adjust the max height as needed */
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 20px;
+      margin-left: 18%;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #3a3a3a;
+      margin: 0 20px;
+    }
+
+    .slider {
+      overflow: hidden;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    /* Slide animation */
+    @keyframes slide_animation {
+      0%, 100% { transform: translateX(0); }
+      20%, 30% { transform: translateX(-1200px); }
+      40%, 50% { transform: translateX(-2400px); }
+      60%, 70% { transform: translateX(-1200px); }
+      80%, 90% { transform: translateX(0); }
+    }
+
+    .slidimg {
+      display: flex;
+      width: 600%; /* Adjust the total width based on the number of images */
+      animation: slide_animation 29s infinite alternate;
+    }
+
+    .img_cont {
+      width: 80%;
+      height: 80%;
+    }
+
+    .img_cont img {
+     
+      height: 20%;
+      width: 100%;
+    }
+
+    .line {
+      width: 2px; /* Adjust the width of the line */
+      height: 70px; /* Adjust the height of the line */
+      background-color: #333; /* Line color */
+      margin-left: 50%;
+      margin-top: 2%;
+    }
+
+    .e_store {
+        font-size: 50px;
+        margin-left: 41%;
+        
+    }
+    .estore2{
+      align-items: center;
+      color: rgb(138, 137, 137);
+    }
+    .shoponline
+    {border: 1px solid black;
+      border-radius: 2pax;
+      align-items: center;
+      
+    }
+    .shoponline{
+      color: #3a3a3a;
+      align-items: center;
+    }
+    .online{
+      align-items: center;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      margin-bottom: 10px;
+      
+    }
+    
+
+    .online :hover{
+      background-color: #191919;
+      color: bisque;
+    }
+    .necklace img{
+      align-items: center;
+      width: 1300px;
+      margin-left: 50px;
+      border: #191919 ;
+    }
+    .line2 {
+      width: 2px; /* Adjust the width of the line */
+      height: 70px; /* Adjust the height of the line */
+      background-color: #333; /* Line color */
+      margin-left: 50%;
+      margin-top: 2%;
+    }
+    .yt{
+      align-items: center;
+    }
+    .ui {
+      color: darkgray;
+    }
+    .kl {
+      display: flex
+    }
+    .sidel {
+      display: flex;
+      justify-content: space-between;
+      padding: 100px;
+    }
+    .sidel img{
+      background-color: red;
+      background-size: 10px 10px;
+    }
+    .container {
+      align-items: center;
+    }
+    .col-lg-3{
+      background-color: bisque;
+  
+    }
+  .do-gift-text{
+    background-color: bisque;
+  }
+  .do-gift-text h2{
+    color: grey;
+    
+  }
+  .line3{
+    width: 2px; /* Adjust the width of the line */
+      height: 70px; /* Adjust the height of the line */
+      background-color: #333; /* Line color */
+      margin-left: 50%;
+      margin-top: 2%; 
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="menu">
+      <div>
+        <a href="#">Our Brands</a>
+        <a href="#">Shop Online</a>
+        <a href="#">Jewellery</a>
+      </div>
+
+      <div class="logo">
+        <img src="Web capture_22-11-2023_221256_.jpeg" alt="Kalyan Jewellers Logo">
+      </div>
+
+      <div>
+        <a href="#">About Us</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Investors</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider">
+    <div class="slidimg">
+      <div class="img_cont">
+        <img src="home_banner_7.jpg" alt="img">
+      </div>
+      <div class="img_cont">
+        <img src="KJ-Candere-Desktop-Aruna.jpg" alt="img">
+      </div>
+      <div class="img_cont">
+        <img src="KJ_FP_ROZ_.jpg" alt="img">
+      </div>
+      <div class="img_cont">
+        <img src="KJ-Candere-solitare.jpg" alt="img">
+      </div>
+    </div>
+  </div>
+  
+    <div class="line"></div>
+
+  <div class="e_store">
+      <h2>E-store.</h2> 
+  </div>
+
+  <div class="estore2">
+    <p align="center ">
+      Now you can find all your favourite collections online! Shop from the comfort of your homes at Candere,<br>
+      Kalyan Jewellers official e-commerce store.
+    </p>
+  </div>
+  <div class="online" align="center">
+    <a href="https://www.candere.com/?utm_source=KJOfficial&utm_medium=KJWebsite" class="shoponline">Shop Onilne.</a>
+  </div>
+  <div class="necklace">
+       <img src="candere-shop-online.jpg" alt="jewellery online">
+  </div>
+  <div>
+    
+    <div class="line2"></div>
+    <div class="e_store">
+      <h2>Muhurat.</h2> 
+  </div>
+
+  <div class="ui">
+    <p align="center ">
+      Weddings are a deep-rooted element of our society, and Indian brides are known as symbols of beauty, pride and elegance. India is a vast country with different customs and traditions practiced even within the same state. Yet, there is something that unites us all - the "Muhurat" or the auspicious time for celebration. At Kalyan Jewellers, we embrace the importance of every "Muhurat". Our wedding collections are for every bride, from every part of India.
+    </p>
+  </div>
+  <div class="yt">
+    <div align="center" class="sidel">
+  <iframe width="710" height="465" src="https://www.youtube.com/embed/CTrWSidFv-A?si=uhvyNSyGU2Avsq51" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <img src="kalyan_logo_white.svg" alt="kalyan logo" >
+  </div>
+  <div class="kl">
+   
+  </div>
+  </div>
+
+  <div class="container" align="center">
+   <section>
+      
+           
+              <div class="col-lg-3 col-md-5 text-center">
+                <img src="hm-gift-img-1.webp" data-src="hm-gift-img-1.webp" title="Diamond Jewellery" alt="Diamond Necklace " class="b-lazy b-loaded">
+              </div>
+              <div class="col-lg-6 col-md-7 text-lg-center text-md-left text-sm-center text-xs-center">
+                <div class="do-gift-text">
+                  <h2 class="text-uppercase h1">We make you<br>feel special</h2>
+            
+              </div>
+      </div>
+    </section>
+ </div>
+ <div class="line3"></div>
+ <div class="l_store" align="center">
+   <h2>Brands Family.</h2> 
+</div>
+
+
+<div class="ui">
+ <p align="center ">
+  India beauty lies in its diversity. Every part of India has its unique jewellery, the expertise to create those exist only in that region, passed on through generations. Kalyan’s biggest strength is in these craftsmen who create unique designs just for us from every nook and corner of India. And this range of jewellery, with those subtle nuances and the perfect finish which you won’t find anywhere else is what we bring you through our various brands.
+ </p>
+</div>
+
+</body>
+</html>
